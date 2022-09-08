@@ -14,9 +14,17 @@ namespace Lanterna
         {
             Lanterna.ligaDesliga();
             if (Lanterna.Status)
+            {
                 lbl_status.Text = "Ligado";
+                btn_on_off.Text = "Desligar";
+            }
+
             else
+            {
                 lbl_status.Text = "Desligado";
+                btn_on_off.Text = "Ligar";
+            }
+                
         }
 
         private void btn_bateria_Click(object sender, EventArgs e)

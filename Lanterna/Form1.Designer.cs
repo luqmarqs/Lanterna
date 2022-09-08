@@ -43,7 +43,7 @@
             this.btn_on_off.Name = "btn_on_off";
             this.btn_on_off.Size = new System.Drawing.Size(107, 32);
             this.btn_on_off.TabIndex = 0;
-            this.btn_on_off.Text = "ON/OFF";
+            this.btn_on_off.Text = "Ligar";
             this.btn_on_off.UseVisualStyleBackColor = true;
             this.btn_on_off.Click += new System.EventHandler(this.btn_on_off_Click);
             // 
